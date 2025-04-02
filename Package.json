@@ -1,0 +1,23 @@
+{
+  "name": "my-nextjs-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",       // აუცილებელია Vercel-ისთვის!
+    "start": "next start",       // პროდაქშენ რეჟიმისთვის
+    "lint": "next lint",         // ოფციონალური (ESLint)
+    "export": "next export"      // თუ სტატიკურ ექსპორტს იყენებთ
+  },
+  "dependencies": {
+    "next": "^14.1.0",           // აუცილებელია!
+    "react": "^18.2.0",          // აუცილებელია!
+    "react-dom": "^18.2.0",      // აუცილებელია!
+    "your-other-dependencies": "*" // მაგ: "shadcn/ui", "tailwindcss"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",      // თუ იყენებთ TypeScript-ს
+    "@types/react": "^18.2.0",   // ოფციონალური
+    "@types/node": "^20.0.0"     // ოფციონალური
+  }
+}
